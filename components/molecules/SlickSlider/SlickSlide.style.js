@@ -11,7 +11,7 @@ export default css`
       min-width: 100%;
       min-height: 100%;
       width: auto;
-      height: 90vh;
+      height: calc(100vh);
       z-index: -100;
       background-size: cover;
       transition: 1s opacity;
@@ -28,7 +28,6 @@ export default css`
         top: 0;
         background: #000;
         opacity: .7;
-        position: relative;
       }
       
       .item-title {
