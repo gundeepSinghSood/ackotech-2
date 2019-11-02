@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NextArrow /> should render correctly 1`] = `
+<Fragment>
+  <button
+    className="icon-right-arrow-large arrow-small arrow"
+    onClick={[MockFunction]}
+    type="button"
+  />
+</Fragment>
+`;
+
+exports[`<NextArrow /> should render correctly 2`] = `
+<Fragment>
+  <button
+    className="icon-right-arrow-large arrow-small undefined"
+    onClick={[MockFunction]}
+    type="button"
+  />
+</Fragment>
+`;
+
+exports[`<NextArrow /> should render with styles correctly and match snapshot 1`] = `
+<button
+  className="icon-right-arrow-large arrow-small undefined"
+  type="button"
+/>
+`;

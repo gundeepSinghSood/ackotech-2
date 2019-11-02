@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Manage IT Services",
+    "content": "The central aim of IT management is to generate value through the use of technology. To achieve this, business strategies and technology must be aligned.<br/>IT Management is different from management information systems. The latter refers to management methods tied to the automation or support of human decision making.[2] IT Management refers to IT related management activities in organizations. MIS is focused mainly on the business aspect, with strong input into the technology phase of the business/organization.<br/>A primary focus of IT management is the value creation made possible by technology. This requires the alignment of technology and business strategies. While the value creation for an organization involves a network of relationships between internal and external environments, technology plays an important role in improving the overall value chain of an organization. However, this increase requires business and technology management to work as a creative, synergistic, and collaborative team instead of a purely mechanistic span of control.",
+    "img": "/"
+  },
+  {
+    "title": "Server & Desktop Support",
+    "content": "<h3>Expert Desktop and Server Support</h3><br/><p>AckoTech offers comprehensive desktop support and server support to ensure that your business’s computer network runs efficiently and reliably. Our desktop and server solutions begin by focusing on server health. If your server goes down, then your entire computer network is affected. Server health requires a proactive approach that addresses uptime, availability, security, and business continuity.</p><br/>Our desktop support and server support services are tailored to your business, making sure that your computer networks are secure and that you receive the highest levels of desktop maintenance and monitoring.",
+    "img": "",
+    "subTitle": "Our desktop support and server support<br/> services are tailored to your<br/> business",
+    "related": {
+      "data": [
+        {
+          "src": "/static/video/Network-14900.mp4",
+          "alt": "banner image",
+          "title": "Server & Desktop Support",
+          "url": ""
+        },
+        {
+          "src": "/static/video/HelloWorld-28320.mp4",
+          "alt": "banner image",
+          "title": "Manage IT Services",
+          "url": "manage-it-services"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Remort IT Support & Management",
+    "content": "",
+    "img": ""
+  }
+]

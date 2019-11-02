@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Anchor Component should render correctly and match snapshot 1`] = `
+<Component
+  as=""
+  href="/sample"
+  scroll={true}
+  shallow={false}
+>
+  <a
+    className="undefined "
+  >
+    Sample
+  </a>
+</Component>
+`;
+
+exports[`Anchor Component should render with styles correctly and match snapshot 1`] = `
+<a
+  className="undefined "
+>
+  Sample
+</a>
+`;
+
+exports[`Anchor Component test with force click 1`] = `
+<Component
+  as=""
+  href=""
+  scroll={true}
+  shallow={false}
+>
+  <a
+    className="undefined "
+    onClick="function"
+    rel={null}
+  />
+</Component>
+`;
+
+exports[`Anchor Component test with force click and hover animation 1`] = `
+<Component
+  as=""
+  href=""
+  scroll={true}
+  shallow={false}
+>
+  <a
+    className="undefined hover-animation"
+    onClick="function"
+    rel={null}
+  />
+</Component>
+`;
+
+exports[`Anchor Component test with hover animation 1`] = `
+<Component
+  as=""
+  href=""
+  scroll={true}
+  shallow={false}
+>
+  <a
+    className="undefined hover-animation"
+  />
+</Component>
+`;
+
+exports[`Anchor Component test with no link and hover animation 1`] = `
+<a
+  className="undefined hover-animation"
+  href=""
+  rel={null}
+/>
+`;

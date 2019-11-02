@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrevArrow /> should render correctly 1`] = `
+<Fragment>
+  <button
+    className="icon-left-arrow-large arrow-small arrow"
+    onClick={[MockFunction]}
+    type="button"
+  />
+</Fragment>
+`;
+
+exports[`<PrevArrow /> should render with styles correctly and match snapshot 1`] = `
+<button
+  className="icon-left-arrow-large arrow-small undefined"
+  type="button"
+/>
+`;

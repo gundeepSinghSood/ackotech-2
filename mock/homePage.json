@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "data": [
+      {
+        "src": "/static/video/Background_People_Working.mp4",
+        "alt": "banner image"
+      }
+    ]
+  },
+  "uniqueBox": {
+    "title": "<h1>What makes us<span> unique?</span></h1>",
+    "data": [
+      {
+        "icon": "search",
+        "title": "System Monitoring",
+        "description": "Doing exercise without monitoring yourself will be rare in the future of wearable technology."
+      },
+      {
+        "icon": "sphere",
+        "title": "Network Management",
+        "description": "We can handle everything from desktop to datacenter, servers to smartphones."
+      },
+      {
+        "icon": "target",
+        "title": "Strategy & Consulting",
+        "description": "Expert advice to help you plan the next steps for your business."
+      },
+      {
+        "icon": "bubbles4",
+        "title": "Unlimited Support",
+        "description": "Your people get the help they need, when they need it."
+      },
+      {
+        "icon": "shield",
+        "title": "Backup & Security",
+        "description": "Our BCP and disaster recovery systems keep everything safe and secure."
+      },
+      {
+        "icon": "library",
+        "title": "Training",
+        "description": "We train our clients - in the classroom and through hands-on experience."
+      }
+    ],
+    "viewAllServices": {
+      "title": "VIEW ALL OF OUR SERVICES",
+      "url": "/service"
+    }
+  },
+  "ourPartner": {
+    "title": "OUR PARTNERS",
+    "slideData": [
+      {
+        "src": "/static/img/apc.png",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/barchuda.png",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/berk.png",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/citrix.png",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/dell.png",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/hp.png",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/kaspersky.png",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/legrand.png",
+        "alt": ""
+      }
+    ]
+  }
+}

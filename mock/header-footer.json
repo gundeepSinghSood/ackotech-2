@@ -1,0 +1,245 @@
+{
+  "currency": "EUR",
+  "env": "qa",
+  "header": {
+    "logo": {
+      "image": "/static/img/logo-main.png",
+      "url": "/",
+      "type": "/"
+    },
+    "firstLevelMenu": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "About Us",
+        "url": "/about"
+      },
+      {
+        "name": "Products",
+        "secondLevel": [
+          {
+            "name": "System",
+            "url": "/system"
+          },
+          {
+            "name": "Networking",
+            "url": "/networking"
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "secondLevel": [
+          {
+            "name": "Manage IT Services",
+            "url": "manage-it-services"
+          },
+          {
+            "name": "Server & Desktop Support",
+            "url": "server-desktop-support"
+          },
+          {
+            "name": "Remort IT Support & Management",
+            "url": "remort-it-support-management"
+          },
+          {
+            "name": "WIFI & Point to Point Solution",
+            "url": "wifi-point-solutiony"
+          },
+          {
+            "name": "Data Backup & Disaster Recovery",
+            "url": "data-backup"
+          },
+          {
+            "name": "Cloud Computing Secure Solution",
+            "url": "clould-computing"
+          },
+          {
+            "name": "Web Hosting & Web Development",
+            "url": "web-hosting"
+          }
+        ]
+      },
+      {
+        "name": "Contact",
+        "url": "/contact"
+      },
+      {
+        "name": "Clients",
+        "url": "/client"
+      }
+    ],
+    "secondLevelMenu": [
+      {
+        "name": "Flights",
+        "url": "/find-your-flight",
+        "description": "Flights",
+        "type": null
+      },
+      {
+        "name": "Accommodation",
+        "url": "/book/accommodation",
+        "description": "Accommodation",
+        "type": null
+      },
+      {
+        "name": "About Us",
+        "url": "/info/about-us",
+        "description": null,
+        "type": "info"
+      },
+      {
+        "name": "Contact",
+        "url": "/info/contact",
+        "description": null,
+        "type": "info"
+      },
+      {
+        "name": "Newsletter",
+        "url": "#newsletter",
+        "description": null,
+        "type": "newsletter",
+        "icon": "newsletter"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Ackotech",
+    "links": [
+      {
+        "name": "IT Solutions For Business",
+        "url": "",
+        "description": null,
+        "type": null,
+        "children": [
+          {
+            "name": "Automatic Network Managment",
+            "url": ""
+          },
+          {
+            "name": "Computer/Server Support",
+            "url": ""
+          },
+          {
+            "name": "Tecnical Engenearing Support",
+            "url": "",
+            "target": "_blank"
+          },
+          {
+            "name": "Disaster Recovery",
+            "url": ""
+          },
+          {
+            "name": "IT Secutity",
+            "url": ""
+          },
+          {
+            "name": "Web Hosting & Development",
+            "url": ""
+          },
+          {
+            "name": "Business Inteligence Services",
+            "url": ""
+          },
+          {
+            "name": "Network Assesment",
+            "url": ""
+          },
+          {
+            "name": "IT Desing/Built Services",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Our IT Services",
+        "url": "",
+        "children": [
+          {
+            "name": "Managed IT Servicest",
+            "url": "/managed-it-services"
+          },
+          {
+            "name": "Server & Desktop Support",
+            "url": "server-desktop-support"
+          },
+          {
+            "name": "Remort IT Support & Management",
+            "url": "remort-it-support-management"
+          },
+          {
+            "name": "WIFI & Point to Point Solution",
+            "url": "wifi-point-solutiony"
+          },
+          {
+            "name": "Data Backup & Disaster Recovery",
+            "url": "data-backup"
+          },
+          {
+            "name": "Cloud Computing Secure Solution",
+            "url": "clould-computing"
+          },
+          {
+            "name": "Web Hosting & Web Development",
+            "url": "web-hosting"
+          }
+        ]
+      },
+      {
+        "name": "Services Areas",
+        "url": "",
+        "children": [
+          {
+            "name": "Industry",
+            "url": ""
+          },
+          {
+            "name": "Education",
+            "url": ""
+          },
+          {
+            "name": "Profetional",
+            "url": "",
+            "target": "_blank"
+          },
+          {
+            "name": "Manufachring",
+            "url": ""
+          },
+          {
+            "name": "Government Body",
+            "url": ""
+          },
+          {
+            "name": "Hospitality",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Stay in touch",
+        "url": "",
+        "description": null,
+        "type": null,
+        "children": [
+          {
+            "name": "info@ackotech.com",
+            "type": "email",
+            "url": ""
+          },
+          {
+            "name": "9803503000",
+            "type": "phone-no",
+            "url": ""
+          },
+          {
+            "name": "#1348/17-A, Line-8 Humbra Road,Ludhiana-141001-Punjab- INDIA",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  }
+}
