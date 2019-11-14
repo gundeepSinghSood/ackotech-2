@@ -15,9 +15,8 @@ import headerFooter from '../../../mock/header-footer.json';
 const Footer = dynamic(() => import( '../../organisms/Footer' ), {
       loading: () => <div>loading</div>
 })
-
+  
 const Layout = ({ children, className }) => {
-
 return(
   <ThemeProvider theme={Theme}>
     <>

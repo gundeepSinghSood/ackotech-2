@@ -27,7 +27,7 @@ class SlickSlide extends Component {
                 {item.title
               ? <Anchor to={item.url}>
                   <div className="video">
-                    <video autoPlay preLoad loop>
+                    <video autoPlay preload loop>
                       <source src={item.src} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -39,7 +39,7 @@ class SlickSlide extends Component {
                   </div>
                 </Anchor>
               : <div className="video">
-                  <video autoPlay preLoad loop>
+                  <video autoPlay preload loop>
                     <source src={item.src} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>

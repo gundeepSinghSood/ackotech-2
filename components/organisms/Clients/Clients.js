@@ -49,9 +49,9 @@ const Clients = props => {
       <div className="col-md-6 col-sm-12 col-xs-12 client-img">
         {imageArr.map(item => {
           return(
-            <div className="img-grid">
-            <img src={item.url} />
-            <p>{item.title}</p>
+            <div className="img-grid" key={item.title}>
+              <img src={item.url} />
+              <p>{item.title}</p>
             </div>
           )
         })}

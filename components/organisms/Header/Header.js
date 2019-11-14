@@ -33,7 +33,7 @@ class Header extends React.PureComponent {
         document.getElementById('logo').style.height = '60px';
       }
     }
-    this.getActiveClass()
+    // this.getActiveClass();
   }
 
   /**
@@ -45,27 +45,29 @@ class Header extends React.PureComponent {
   renderMenuLinks = renderLinks =>
     renderLinks.map(item => {
       return (
-        <div className="item-container">
-        <li className={` ${this.state.currentUrl === item.name.toLowerCase() && 'activeItem'} item-li`} aria-label={item.name} key={item.name}>
-          <Anchor to={item.url} title={item.name}>
-            {item.name}
-          </Anchor>
-          {item.secondLevel && <ul className="desktop-seconlevel">
-          {item.secondLevel && item.secondLevel.map(secondItem => {
-            return (
-            <li className={secondItem.name} aria-label={secondItem.name} key={secondItem.name}>
-              {/* <Anchor to={secondItem.url} title={secondItem.name}>
-                {secondItem.name}
-              </Anchor> */}
-              <Link route={item.name.toLowerCase()} params={{ slug: secondItem.url }} >  
-                <a>
-                   {secondItem.name}
-                </a>
-              </Link>
-            </li> )
-          })}
-        </ul>}
-        </li>
+        <div className="item-container" key={item.name}>
+          <li className={` ${this.state.currentUrl === item.name.toLowerCase() && 'activeItem'} item-li`} aria-label={item.name} key={item.name}>
+            <Anchor to={item.url} title={item.name}>
+              {item.name}
+            </Anchor>
+            {item.secondLevel && 
+            <ul className="desktop-seconlevel container">
+              {item.secondLevel && item.secondLevel.map(secondItem => {
+                return (
+                  <li className={secondItem.name} aria-label={secondItem.name} key={secondItem.name}>
+                    {/* <Anchor to={secondItem.url} title={secondItem.name}>
+                      {secondItem.name}
+                    </Anchor> */}
+                    <Link route={item.name.toLowerCase()} params={{ slug: secondItem.url }} >  
+                      <a>
+                        {secondItem.name}
+                      </a>
+                    </Link>
+                  </li> 
+                )
+              })}
+            </ul>}
+          </li>
         </div>
       );
     });
