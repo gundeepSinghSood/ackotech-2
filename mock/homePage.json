@@ -3,7 +3,8 @@
     "data": [
       {
         "src": "/static/video/Background_People_Working.mp4",
-        "alt": "banner image"
+        "alt": "banner image",
+        "heroText": "<h2>Who is Ackotech<br/><h2>A Digital Innovation Agency <br/>helping businesses achieve <br/>exponential growth &<br/>operational efficiency</h1>"
       }
     ]
   },

@@ -21,11 +21,29 @@
         "secondLevel": [
           {
             "name": "System",
-            "url": "/system"
+            "url": "system"
           },
           {
             "name": "Networking",
-            "url": "/networking"
+            "url": "networking",
+            "thirdLevel": [
+              {
+                "name": "Actice Components",
+                "url": "active-components"
+              },
+              {
+                "name": "Passive Components",
+                "url": "pasive-components"
+              }
+            ]
+          },
+          {
+            "name": "Software",
+            "url": "software"
+          },
+          {
+            "name": "Security",
+            "url": "security"
           }
         ]
       },
@@ -46,19 +64,19 @@
           },
           {
             "name": "WIFI & Point to Point Solution",
-            "url": "wifi-point-solutiony"
+            "url": "wifi-point-to-point-solution"
           },
           {
             "name": "Data Backup & Disaster Recovery",
-            "url": "data-backup"
+            "url": "data-backup-disaster-recovery"
           },
           {
             "name": "Cloud Computing Secure Solution",
-            "url": "clould-computing"
+            "url": "cloud-computing-secure-solution"
           },
           {
             "name": "Web Hosting & Web Development",
-            "url": "web-hosting"
+            "url": "web-hosting-web-development"
           }
         ]
       },
@@ -69,39 +87,6 @@
       {
         "name": "Clients",
         "url": "/client"
-      }
-    ],
-    "secondLevelMenu": [
-      {
-        "name": "Flights",
-        "url": "/find-your-flight",
-        "description": "Flights",
-        "type": null
-      },
-      {
-        "name": "Accommodation",
-        "url": "/book/accommodation",
-        "description": "Accommodation",
-        "type": null
-      },
-      {
-        "name": "About Us",
-        "url": "/info/about-us",
-        "description": null,
-        "type": "info"
-      },
-      {
-        "name": "Contact",
-        "url": "/info/contact",
-        "description": null,
-        "type": "info"
-      },
-      {
-        "name": "Newsletter",
-        "url": "#newsletter",
-        "description": null,
-        "type": "newsletter",
-        "icon": "newsletter"
       }
     ]
   },

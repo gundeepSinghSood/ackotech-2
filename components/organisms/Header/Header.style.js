@@ -90,6 +90,14 @@ export default css`
         height: 100%;
         line-height: 70px;
         
+        .activeItem.item-li {
+          background-color: #0C6291;
+          color: #fff;
+          a {
+            color: #fff;
+          }
+        }
+      
         .item-li {
           transition: all 5s ease-in;
           position: relative;

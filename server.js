@@ -16,6 +16,7 @@ app.prepare()
     server.use(handler)
 
     server.get('*', (req, res) => {
+      
       return handle(req, res)
     })
 

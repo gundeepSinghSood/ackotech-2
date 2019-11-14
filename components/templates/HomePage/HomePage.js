@@ -23,10 +23,14 @@ class HomePage extends Component {
   }
   render() {
     const { hero, uniqueBox, ourPartner } = HomePageData
-    
+    const heroText= `<h1>Who is Ackotech<br/>
+            <span>A Digital Innovation Agency
+                helping businesses achieve
+                exponential growth &
+                operational efficiency</span></h1>`;
     return (
       <section className="home-page">
-        <SlickSlider slider={hero.data} setting={sliderSetting}/>
+        <SlickSlider slider={hero.data} setting={sliderSetting} headerText={heroText} />
         <UniqueBox boxData={uniqueBox} />
         <OurPartner compData={ourPartner} />
       </section>

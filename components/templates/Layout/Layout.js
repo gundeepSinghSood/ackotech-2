@@ -16,7 +16,9 @@ const Footer = dynamic(() => import( '../../organisms/Footer' ), {
       loading: () => <div>loading</div>
 })
 
-const Layout = ({ children, className }) => (
+const Layout = ({ children, className }) => {
+
+return(
   <ThemeProvider theme={Theme}>
     <>
       <Header pageData={headerFooter} />
@@ -35,7 +37,7 @@ const Layout = ({ children, className }) => (
       <Footer pageData={headerFooter} />
     </>
   </ThemeProvider>
-);
+)};
 
 // Layout.defaultProps = {};
 

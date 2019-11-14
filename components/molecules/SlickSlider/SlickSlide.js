@@ -23,7 +23,8 @@ class SlickSlide extends Component {
   viewArray = this.props.slider && this.props.slider.map(item => {
       return this.checkFile(item.src)
               ? <img src={item.src} />
-              : <>{item.title 
+              : <>
+                {item.title
               ? <Anchor to={item.url}>
                   <div className="video">
                     <video autoPlay preLoad loop>
@@ -42,6 +43,7 @@ class SlickSlide extends Component {
                     <source src={item.src} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
+                  {item.heroText && <div className="container hero-video-text"><div dangerouslySetInnerHTML={{ __html: item.heroText }}/></div>}
                 </div>
               }</>
     });

@@ -2,12 +2,23 @@
   {
     "title": "Manage IT Services",
     "content": "The central aim of IT management is to generate value through the use of technology. To achieve this, business strategies and technology must be aligned.<br/>IT Management is different from management information systems. The latter refers to management methods tied to the automation or support of human decision making.[2] IT Management refers to IT related management activities in organizations. MIS is focused mainly on the business aspect, with strong input into the technology phase of the business/organization.<br/>A primary focus of IT management is the value creation made possible by technology. This requires the alignment of technology and business strategies. While the value creation for an organization involves a network of relationships between internal and external environments, technology plays an important role in improving the overall value chain of an organization. However, this increase requires business and technology management to work as a creative, synergistic, and collaborative team instead of a purely mechanistic span of control.",
-    "img": "/"
+    "img": "/",
+    "subTitle": "The central aim of IT management<br/> is to generate value through<br/> the use of technology",
+    "related": {
+      "data": [
+        {
+          "src": "/static/video/Network-14900.mp4",
+          "alt": "banner image",
+          "title": "Server & Desktop Support",
+          "url": "server-desktop-support"
+        }
+      ]
+    }
   },
   {
     "title": "Server & Desktop Support",
     "content": "<h3>Expert Desktop and Server Support</h3><br/><p>AckoTech offers comprehensive desktop support and server support to ensure that your business’s computer network runs efficiently and reliably. Our desktop and server solutions begin by focusing on server health. If your server goes down, then your entire computer network is affected. Server health requires a proactive approach that addresses uptime, availability, security, and business continuity.</p><br/>Our desktop support and server support services are tailored to your business, making sure that your computer networks are secure and that you receive the highest levels of desktop maintenance and monitoring.",
-    "img": "",
+    "url": "Server & Desktop Support",
     "subTitle": "Our desktop support and server support<br/> services are tailored to your<br/> business",
     "related": {
       "data": [
@@ -28,7 +39,106 @@
   },
   {
     "title": "Remort IT Support & Management",
+    "content": "<div><p>Outsource Remote IT Support Services When customers make a decision to buy products or services, they don't just look at their features and benefits. They also consider the after-sales technical support that is available to help resolve issues that may arise in the future. A customer buying computer software, for instance, will want assurance that help is available in case the product doesn't work optimally. Customers may also need technical support during their warranty periods.<br><br> Businesses understand how important it is to address customer concerns quickly. Today, an increasing number of Independent Software Vendors (ISVs) and manufacturers are outsourcing remote support services to skilled partners. An expert like Outsource2india not only troubleshoots problems through remote assistance, it also helps generate leads and can help you cross-sell products and services.</p><br><h3>Outsource2india's technical support services</h3><p>We offer a diverse range of offshore remote support services to suit varied customer needs. These include services to:</p><p></p><ul><li>Troubleshoot internet service problems</li><li>Resolve computer hardware problems</li><li>Provide assistance for software problems</li><li>Give warranty or post-warranty support</li><li>Provide corporate helpdesk support</li></ul><br><p>We can provide remote support to both your end customers as well as act as an internal remote helpdesk for your employees. Whether you are looking for remote PC repair or want to outsource online tech support services, we can customize a solution to suit your specific requirements.</p></div>",
+    "url": "Remort IT Support & Management",
+    "subTitle": "We can provide remote support to both your end customers as well as act as an internal remote helpdesk for your employees",
+    "related": {
+      "data": [
+        {
+          "src": "/static/video/Network-14900.mp4",
+          "alt": "banner image",
+          "title": "Server & Desktop Support",
+          "url": ""
+        },
+        {
+          "src": "/static/video/HelloWorld-28320.mp4",
+          "alt": "banner image",
+          "title": "Manage IT Services",
+          "url": "manage-it-services"
+        }
+      ]
+    }
+  },
+  {
+    "title": "WIFI & Point to Point Solution",
+    "content": "<div><p>No need to pay expensive leased line charges between buildings, or put up with the slow speeds associated with leased lines. Receive blistering speeds with minimal operating costs and ensures that your network is not the slowest link in your companies performance!<br/><br/> Deployment of an outdoor wireless network requires an even greater specialised skillset due to the unique volatile nature of the outdoor environment. With years of experience in deploying outdoor wireless networks, uniquely makes us one of the only UK company’s capable of a successful deployment with 99.999% availability.</p><div><h3>Point to Point Wireless</h3><p>Point to point wireless network links connect two locations together through line of sight (LOS), operating in unlicensed/licensed radio frequencies or through free space optics with speeds available between 100mbps to 10Gbps.</p><p>Typical Point to Point applications are:</p><ul><li>Building to building connectivity</li><li>Leased line replacement</li><li>Fiber line replacement</li><li>Wireless failover</li> </ul></div><div><h3>Point to Multi Point Wireless</h3><p>Point to Multi Point wireless networks, also used for outdoor hotspots, interconnect multiple locations to central access points through line of sight and non line of sight (nLOS). They can operate in both the unlicensed and licensed frequencies bands with speeds up to 1Gbps. A point to multi point wireless network can be a highly cost effective replacement for leased lines.</p><p>Typical Point to Multi Point applications are:</p><ul><li>Connecting multiple buildings</li><li>CCTV solutions</li><li>Lease line replacement</li><li>Fiber replacement</li><li>Outdoor WiFi</li></ul></div><div><h3>WLAN Wireless Mesh Network</h3><p>Wireless mesh networks provide a self-configuring, scalable, and self-healing wireless network capable of extremely high concurrent connections. Each mesh node will have redundant links to other mesh nodes which creates  inherent redundancy. Mesh networks are ideal for large outdoor, or high capacity environments as they can scale to many kilometres.</p><p>Typical Point to Point applications are:</p><ul><li>Public WiFi</li><li>Campus wide broadband</li>                        <li>Campsite WiFi</li><li>Locations that can't be cabled</li><li>Stadiums and exhibitions halls</li></ul></div></div>",
+    "url": "WIFI Point to Point Solution",
+    "subTitle": "The central aim of IT management<br/> is to generate value through<br/> the use of technology",
+    "related": {
+      "data": [
+        {
+          "src": "/static/video/Network-14900.mp4",
+          "alt": "banner image",
+          "title": "Server & Desktop Support",
+          "url": "server-desktop-support"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Data Backup & Disaster Recovery",
+    "content": "<div><p>Through disk-based backup, continuous data protection enables backups to take place more often. Discover how to repair the tecnology's cost and capacity problems.<br><br>Due to faliure of most modren which include snapshot managemnt, DR ,cloud support, BM protection backups can do so much more then simply restoring data in the even of storage or server faliure.</p></div>",
+    "url": "Data Backup",
+    "subTitle": "Continuous data protection enables backups to take place more often",
+    "related": {
+      "data": [
+        {
+          "src": "/static/video/Network-14900.mp4",
+          "alt": "banner image",
+          "title": "Server & Desktop Support",
+          "url": ""
+        },
+        {
+          "src": "/static/video/HelloWorld-28320.mp4",
+          "alt": "banner image",
+          "title": "Manage IT Services",
+          "url": "manage-it-services"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Cloud Computing Secure Solution",
+    "content": "<div><p>Cloud computing delivers faster recovery times and multi-site availably at a friction of the cost of conventional disaster recovery.<br><br> Cloud Computing , based on virtualization, take a very differs approach to disaster recovery. With virtualization, the entire server, including the operation system, application, patches and data is in encapsulated into a single software bundle or virtual server. The entire virtual server can be coped or backed up to an or site data center and spoon up on a virtual host in a matter of minutes.<br><br>Finally this cloud shifts the disaster recovery trade of crew to the left, as soon below. With cloud computation, disaster recovery become more cost effective with significantly faster recovery rate.</p></div>",
+    "url": "Cloud Computing Secure Solution",
+    "subTitle": "With cloud computation, disaster recovery become more cost effective with significantly faster recovery rate.",
+    "related": {
+      "data": [
+        {
+          "src": "/static/video/Network-14900.mp4",
+          "alt": "banner image",
+          "title": "Server & Desktop Support",
+          "url": ""
+        },
+        {
+          "src": "/static/video/HelloWorld-28320.mp4",
+          "alt": "banner image",
+          "title": "Manage IT Services",
+          "url": "manage-it-services"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Web Hosting & Web Development",
     "content": "",
-    "img": ""
+    "url": "Web Hosting & Web Development",
+    "subTitle": "",
+    "related": {
+      "data": [
+        {
+          "src": "/static/video/Network-14900.mp4",
+          "alt": "banner image",
+          "title": "Server & Desktop Support",
+          "url": ""
+        },
+        {
+          "src": "/static/video/HelloWorld-28320.mp4",
+          "alt": "banner image",
+          "title": "Manage IT Services",
+          "url": "manage-it-services"
+        }
+      ]
+    }
   }
 ]

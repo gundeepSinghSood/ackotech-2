@@ -4,11 +4,14 @@ import Anchor from '../../atoms/Anchor';
 import withStyles from '../../../lib/withStyles';
 import styles from './Header.style';
 import { Link } from '../../../routes';
+import Router from 'next/router';
 
 class Header extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      currentUrl: '',
+    };
   }
 
   componentDidMount() {
@@ -30,6 +33,7 @@ class Header extends React.PureComponent {
         document.getElementById('logo').style.height = '60px';
       }
     }
+    this.getActiveClass()
   }
 
   /**
@@ -42,7 +46,7 @@ class Header extends React.PureComponent {
     renderLinks.map(item => {
       return (
         <div className="item-container">
-        <li className='item-li' aria-label={item.name} key={item.name}>
+        <li className={` ${this.state.currentUrl === item.name.toLowerCase() && 'activeItem'} item-li`} aria-label={item.name} key={item.name}>
           <Anchor to={item.url} title={item.name}>
             {item.name}
           </Anchor>
@@ -73,6 +77,11 @@ class Header extends React.PureComponent {
   closeNav = () => {
     document.getElementById('navbar-right').style.width = '0';
   };
+
+  getActiveClass = () => {
+    const router = JSON.stringify(Router.pathname);
+    this.setState({currentUrl: router.replace(/[^a-zA-Z0-9 ]/g, "")});
+  }
 
   render() {
     const {

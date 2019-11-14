@@ -6,6 +6,32 @@ export default css`
     justify-content: center;
   }
   
+  .slick-cloned {
+    display: none;
+  }
+  
+  .hero-video-text{
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    h2{
+      font-size: 2.4rem;
+      line-height: 1.2;
+      &:first-child {
+        color: #20ecb5;
+        margin: 0 0 15px;
+      }
+    }
+  }
+  
   video {
       margin:0 auto;
       min-width: 100%;
@@ -19,6 +45,7 @@ export default css`
     }
     
     .video {
+      height: 90vh;
       &:after {
         position: absolute;
         content: '';
