@@ -38,7 +38,7 @@ const SimpleParaImage = props => {
         <div className="related-articles col-xs-12">
           <h3>Related Services</h3>
           <div>
-            {data.related && <SlickSlider slider={data.related.data} setting={sliderSetting} />}
+            {data.related && <SlickSlider slider={data.related.data} className="related-slide" setting={sliderSetting} />}
           </div>
         </div>
       }

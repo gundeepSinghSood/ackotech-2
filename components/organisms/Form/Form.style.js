@@ -8,6 +8,10 @@ max-width: 700px;
   
   h1{
     text-align: left;
+    
+    &:only-child {
+      margin: 90px 0;
+    }
   }
   
   &:after {

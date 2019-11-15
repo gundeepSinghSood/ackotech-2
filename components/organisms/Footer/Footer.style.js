@@ -77,6 +77,26 @@ export default css`
 
   .footer-bottom {
     padding: 2em 0;
+    background: #0b6290;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+    
+    .footer-links {
+      .title {
+          color: #fff;
+        }
+      .list-info {
+        a, span {
+          color: #ffffffb5;
+        }
+        
+        a[href = ''] {
+          cursor: auto;
+        }
+      }
+    }
   }
 
   .navbar-brand {

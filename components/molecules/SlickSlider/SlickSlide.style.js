@@ -10,6 +10,12 @@ export default css`
     display: none;
   }
   
+  &.related-slide {
+    .video {
+      height: auto;
+    }
+  }
+  
   .hero-video-text{
     position: absolute;
     height: 100%;
@@ -26,7 +32,7 @@ export default css`
       font-size: 2.4rem;
       line-height: 1.2;
       &:first-child {
-        color: #20ecb5;
+        color: #0184cc;
         margin: 0 0 15px;
       }
     }

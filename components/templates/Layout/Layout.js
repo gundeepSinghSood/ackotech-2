@@ -20,17 +20,15 @@ const Layout = ({ children, className }) => {
 return(
   <ThemeProvider theme={Theme}>
     <>
+     <Head>
+        <meta
+          name="viewport"
+          content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, shrink-to-fit=no"
+        />
+        {/* {meta && <HeadTag metaData={meta} title={title} />} */}
+      </Head>
       <Header pageData={headerFooter} />
       <main className={`${className || ''}`}>
-        <Head>
-          <meta
-            name="viewport"
-            content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, shrink-to-fit=no"
-          />
-        </Head>
-
-        {/* {meta && <HeadTag metaData={meta} title={title} />} */}
-
         {children}
       </main>
       <Footer pageData={headerFooter} />

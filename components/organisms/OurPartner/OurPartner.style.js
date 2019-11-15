@@ -7,7 +7,7 @@ export default css`
     padding-bottom: 1rem !important;
     padding-top: 1rem !important;
     text-align: center;
-    margin-top: -105px;
+    /* margin-top: -105px; */
 
     h2 {
       color: ${props => props.theme.textColorMildGrey};
@@ -15,12 +15,12 @@ export default css`
       font-weight: 700;
       text-transform: uppercase;
       margin-bottom: 3rem !important;
-      top: 4px;
+      top: 0px;
       position: relative;
 
       @media ${props => props.theme.largeMediaQuery} {
         font-size: 2.7em;
-        top: -20px;
+        top: 0px;
       }
     }
   }

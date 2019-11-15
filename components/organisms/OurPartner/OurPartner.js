@@ -11,7 +11,7 @@ const OurPartner = props => {
   return (
     <section className={className}>
       <div className="container">
-        <h2>{title}</h2>
+        {/* <h2>{title}</h2> */}
         <SlickSlide slider={slideData} />
       </div>
     </section>
