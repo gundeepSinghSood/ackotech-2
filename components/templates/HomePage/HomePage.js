@@ -31,8 +31,8 @@ class HomePage extends Component {
     return (
       <section className="home-page">
         <SlickSlider slider={hero.data} setting={sliderSetting} headerText={heroText} />
-        <UniqueBox boxData={uniqueBox} />
         <OurPartner compData={ourPartner} />
+        <UniqueBox boxData={uniqueBox} />
       </section>
     );
   }

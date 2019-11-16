@@ -1,6 +1,16 @@
 import { css } from 'styled-components';
 
 export default css`
+  .header-top {
+    position: relative;
+    background: #0184cc;
+    color: #fff;
+    padding: 5px 0;
+    
+    a {
+      padding: 0 10px;
+    }
+  }
   .sidenav {
     height: 100%;
     width: 0;
@@ -241,6 +251,10 @@ export default css`
     box-shadow: 2px 2px 10px rgba(12, 98, 145, 0.34);
     background-size: cover;
     /* padding: 10px 30px; */
+    
+    >.container {
+      margin-top: -20px;
+    }
 
     a {
       color: ${props => props.theme.textColorSecondary};
@@ -250,7 +264,7 @@ export default css`
   /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
   @media screen and (max-width: 580px) {
     &#navbar {
-      padding: 20px 10px;
+      /* padding: 20px 10px; */
       a {
         /* float: none; */
         display: block;

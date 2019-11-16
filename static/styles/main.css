@@ -110,13 +110,13 @@ video {
 }
 
 .contact-us .form, .contact-left {
-  margin: 0 4.574rem;
+  /* margin: 0 4.574rem; */
 }
 
-.contact-us .contact-left {
+/* .contact-us .contact-left {
   margin-left: 0;
   margin-top: 90px;
-}
+} */
 
 .contact-us .contact-left .contact_detail {
   display: flex;

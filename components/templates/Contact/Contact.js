@@ -31,18 +31,7 @@ class Contact extends Component {
       submitted: false
     }
   }
-  
-  submitForm = ()=> {
-    // document.theForm.submit();
-    // console.log(document.theForm.submit());
-    // axios.get("/send-mail",{
-    //     countValue: 2
-    // }).then((response)=> {
-    //    console.log("Data submitted successfully", response);
-    // }).catch((error)=> {
-    //    console.log("got errr while posting data", error);
-    // });
-  }
+
   
   render() { 
     const title = 'Contact Page';
@@ -50,22 +39,24 @@ class Contact extends Component {
       <div className="contact-us">
         <SlickSlider slider={hero.data} setting={sliderSetting}/>    
         <div className="container">
-          <Form />
-          <div className="contact-left">
-            <div className="contact_detail">
-              <span className="icon-location" /> 
-              <div className="contact_description">#1348/17-A,Line-8 Humbra Road,Ludhiana-141001-Punjab- INDIA</div>
-            </div>
-            <div className="contact_detail">
-              <span className="icon-envelop" /> 
-              <div className="contact_description">
-                <a href="mailto:info@ackoteck.com">info@ackoteck.com</a>
+          <div className="row">
+            <Form className="col-xs-12 col-md-7"/>
+            <div className="contact-left col-xs-12 col-md-4 col-md-offset-1">
+              <div className="contact_detail">
+                <span className="icon-location" /> 
+                <div className="contact_description">#1348/17-A,Line-8 Humbra Road,Ludhiana-141001-Punjab- INDIA</div>
               </div>
-            </div>
-            <div className="contact_detail">
-              <span className="icon-phone" /> 
-              <div className="contact_description">
-                <a href="tel:+91 9803503000">+91 9803503000</a>
+              <div className="contact_detail">
+                <span className="icon-envelop" /> 
+                <div className="contact_description">
+                  <a href="mailto:info@ackoteck.com">info@ackoteck.com</a>
+                </div>
+              </div>
+              <div className="contact_detail">
+                <span className="icon-phone" /> 
+                <div className="contact_description">
+                  <a href="tel:+91 9803503000">+91 9803503000</a>
+                </div>
               </div>
             </div>
           </div>

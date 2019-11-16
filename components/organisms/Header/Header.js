@@ -24,13 +24,13 @@ class Header extends React.PureComponent {
         document.body.scrollTop > 80 ||
         document.documentElement.scrollTop > 80
       ) {
-        document.getElementById('navbar').style.paddingTop = '0';
-        document.getElementById('navbar').style.paddingBottom = '0';
         document.getElementById('navbar').classList.add('fixed');
         document.getElementById('logo').style.height = '60px';
+        document.querySelector(".header-top").style.top = '-60px'
       } else {
         document.getElementById('navbar').classList.remove('fixed');
         document.getElementById('logo').style.height = '60px';
+        document.querySelector(".header-top").style.top = '0px'
       }
     }
     // this.getActiveClass();
@@ -93,10 +93,14 @@ class Header extends React.PureComponent {
 
     return (
       <header id="navbar" className={`${className} `}>
+        <div className="header-top row end-xs">
+         <a href="tel:+91 9803503000">+91 9803503000</a>
+          <a href="mailto:info@ackoteck.com">info@ackoteck.com</a>
+        </div>
         <div className="container">
           <div className="row bottom-lg between-xs">
              <span className="col-xs">
-              <img id="logo" src={header.logo.image} />
+              <Anchor to='/' title='Ackoteck'><img id="logo" src={header.logo.image} /></Anchor>
             </span>
             {/* nav menu links */}
             <nav className="desktop-menu col-xs">
