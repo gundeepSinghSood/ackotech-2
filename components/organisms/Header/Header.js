@@ -59,7 +59,7 @@ class Header extends React.PureComponent {
                       {secondItem.name}
                     </Anchor> */}
                     <Link route={item.name.toLowerCase()} params={{ slug: secondItem.url }} >  
-                      <a>
+                      <a onClick={this.closeNav}>
                         {secondItem.name}
                       </a>
                     </Link>

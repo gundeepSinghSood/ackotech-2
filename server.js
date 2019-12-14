@@ -3,17 +3,14 @@ const next = require('next')
 const allRoutes = require('./routes')
 const bodyParser = require('body-parser')
 var nodemailer = require('nodemailer');
-const nextRoutes = require('next-routes')
-const router = module.exports = nextRoutes()
 
 
 const port = parseInt(process.env.PORT, 10) || 3005
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
-const handle = app.getRequestHandler()
 const handler = allRoutes.getRequestHandler(app)
-// app.use(bodyParser());
 
+// send mail
 var transport = {
   service: "Gmail",
   debug: true,
@@ -32,7 +29,7 @@ transporter.verify((error, success) => {
     console.log('Server is ready to take messages');
   }
 });
-
+// end send mail
 
 app.prepare()
   .then(() => {
@@ -69,7 +66,8 @@ app.prepare()
     })
 
     server.get('*', (req, res) => {
-      return handle(req, res)
+      return handler(req, res)
+      
     })
 
     server.listen(port, (err) => {

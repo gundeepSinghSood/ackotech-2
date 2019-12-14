@@ -111,6 +111,13 @@ video {
 
 .contact-us .form, .contact-left {
   margin: 0 4.574rem;
+  margin-right: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .contact-us .form, .contact-left {
+    margin-left: 0;
+  }
 }
 
 .contact-us .contact-left {
